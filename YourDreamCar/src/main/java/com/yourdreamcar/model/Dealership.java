@@ -1,6 +1,7 @@
 package com.yourdreamcar.model;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Dealership {
     private String name;
@@ -20,6 +21,26 @@ public class Dealership {
     public String getAddress() { return address; }
 
     public String getPhone() { return phone; }
+
+    public List<Vehicle> getVehiclesByPrice(double min, double max){return null;}
+
+    public List<Vehicle> getVehiclesByMakeModel(String make, String model){return null;}
+
+    public List<Vehicle> getVehiclesByYear(String make, String model){return null;}
+
+    public List<Vehicle> getVehiclesByColor(String make, String model){return null;}
+
+    public List<Vehicle> getVehiclesByMileage(String make, String model){return null;}
+
+    public List<Vehicle> getVehiclesByType(String make, String model){return null;}
+
+    public List<Vehicle> getAllVehicles(){return inventory;}
+
+    public void addVehicle(Vehicle vehicle){inventory.add(vehicle);;}
+
+    public void removeVehicle(Vehicle vehicle){
+
+    }
 
 
 }

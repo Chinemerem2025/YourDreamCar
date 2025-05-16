@@ -29,7 +29,6 @@ public class Vehicle {
     public String getMake() { return make; }
 
     public String getModel() { return model; }
-
     public String getVehicleType() { return vehicleType; }
 
     public String getColor() { return color; }
